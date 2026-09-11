@@ -1,0 +1,38 @@
+Sessions: 9,770
+Columns: 83
+
+Detected identity columns:
+  session_id: session_id
+  repository: source.repository
+  harness: agent
+  model: model
+  trajectory: trajectory
+
+Detected metric columns:
+  tokens: ['statistics.input_tokens', 'statistics.reasoning_tokens', 'statistics.output_tokens', 'checkpoint_token_usage.input_tokens', 'checkpoint_token_usage.cache_creation_tokens', 'checkpoint_token_usage.cache_read_tokens', 'checkpoint_token_usage.output_tokens', 'checkpoint_token_usage.api_call_count']
+  tool_calls: ['statistics.tool_calls']
+  messages: ['statistics.user_messages', 'statistics.assistant_messages']
+  bytes: ['bytes']
+  duration: []
+
+Top repositories by session count:
+    1305  entireio/cli-checkpoints
+     832  E2E-Solution/cli
+     559  dayhaysoos/nimbus
+     511  marcus-sa/brain
+     319  FSM1/cipher-box
+     310  armelhbobdad/bmad-module-skill-forge
+     274  lightfastai/lightfast
+     270  cyyeh/duckdb-data-agent
+     153  zchee/spanner-manager
+     146  zchee/zmux
+     139  HMAKT99/cli
+     127  InTheCloudDan/family-schedule-agent-conversations
+      99  PackmindHub/context-evaluator
+      97  entireio/git-sync
+      96  henryph24/neuralips26
+      94  lgulliver/derrick
+      94  feltroidprime/s2morrow
+      91  moltis-org/moltis
+      87  TheUHO/AI-voyager
+      87  ClusterCockpit/cc-backend
